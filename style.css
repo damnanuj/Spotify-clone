@@ -1,0 +1,127 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: #000000;
+}
+
+.left-nav{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.2rem;
+    background-color: #000000;
+    height: 100%;
+}
+.right-part{
+    width: 80%;
+    height: 100%;
+    background-color: #212121;
+    
+}
+.logo{
+    width: 140px;
+    margin-left: 30px;
+}
+.home, .search, .library, .playlist,
+ .liked-songs, .episodes, .install{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    width: 95%;
+
+ }
+.home-container, .playlist-container, 
+.fav-tags{
+    display: flex;
+    flex-direction: column;
+}
+
+.active{
+    background-color: #212121;
+    
+}
+.fav-tags{
+    padding-left: 15px;
+}
+.fav-tags h2{
+    padding: 3px 0;
+}
+
+
+
+ .leftnavh2{
+    font-size: 13px;
+    color: whitesmoke;
+ }
+
+ .leftnavimg{
+    width: 22px;
+    margin-right: 15px;
+ }
+ .install{
+    margin-bottom: 10px;
+    margin-top: -10px;
+ }
+ .dwn{
+    margin-right: 15px;
+    width: 20px;
+ }
+
+
+
+ /* *************Right Parts*********** */
+
+ .nav{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: darkgoldenrod; */
+    width: 95%;
+    
+ }
+ .left-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+ .left-right img{
+    width: 35px;
+ }
+ .profile{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 3px;
+    border-radius: 20px;
+    gap: 0.8rem;
+    
+ }
+ .profile h3{
+    font-size: 15px;
+    color: white;
+ }
