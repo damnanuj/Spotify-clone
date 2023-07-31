@@ -59,8 +59,16 @@
     padding-left: 15px;
     border-radius: 5px;
     width: 95%;
-
+    transition: all 0.2s ease-in-out;
  }
+
+ .home:hover, .search:hover, 
+ .library:hover, .playlist:hover,
+ .liked-songs:hover, .episodes:hover, .install:hover{
+  cursor: pointer;
+  background-color: #212121;
+ }
+ 
 .home-container, .playlist-container, 
 .fav-tags{
     display: flex;
@@ -100,7 +108,7 @@
 
 
 
- /* *************Right Parts*********** */
+ /* *************Right Parts****************** */
 
  .nav{
     margin-top: 10px;
@@ -119,7 +127,13 @@
  }
  .left-right img{
     width: 30px;
+    transition: all 0.2s ease-in;
  }
+ .left-right img:hover{
+  box-shadow: 1px 1px 20px gray;
+  cursor: pointer;
+ }
+
  .profile{
     display: flex;
     align-items: center;
@@ -127,19 +141,17 @@
     padding: 3px;
     border-radius: 20px;
     gap: 0.8rem;
-    
+    transition: all 0.2s ease-in-out;
  }
+ .profile:hover{
+  box-shadow: 1px 1px 10px gray;
+  cursor: pointer;
+ }
+ /* Profile Pic********* */
  .profile h3{
     font-size: 15px;
     color: white;
  }
-
-
-
-
-
-
-
 
 /* ************************************ */
  .goodmrng{
@@ -165,6 +177,11 @@
    align-items: center;
    width: 300px;
    background-color:#303030 ;
+   transition: all 0.2s ease-in;
+ }
+ .likedcards:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 10px gray;
  }
  .likedcards>img{
    width: 50px;
@@ -177,7 +194,7 @@
  }
 
 
- /* ///////////////////////// */
+ /* /////////////////////////******************** */
 .shows{
    padding: 0px 50px;
   
@@ -192,6 +209,12 @@
 .shows>div>p{
    color: whitesmoke;
    text-transform: uppercase;
+   transition: all 0.2s ease-in-out;
+}
+.shows>div>p:hover{
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
 }
 
 .shows>div>h1{
@@ -200,8 +223,6 @@
    color: whitesmoke;
    margin-bottom: 15px;
 }
-
-
 
 .showsCards{
    padding-right: 80px;
@@ -212,7 +233,12 @@
  .showCard{
    background-color: #181818;
    padding: 15px;
+   transition: all 0.2s ease-in-out;
    
+ }
+ .showCard:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 10px gray;
  }
  .showCard>h2{
    font-size: 14px;
@@ -229,17 +255,13 @@
  .alex{
    height: 130px;
  }
+ 
 
 
 
 
 
-
-
-
-
-
-
+/* *********Bottom Palyer Controls Part************* */
 
  .bottom{
    padding: 40px 20px;
@@ -252,7 +274,7 @@
    
   
  }
-
+ /* <!-- ===========Bottom left============== */
  .songName{
    display: flex;
    align-items: center;
@@ -271,7 +293,7 @@
  }
 
 
-
+ /* <!-- ===========Bottom Middle============= */
  .playControls{
    display: flex;
    flex-direction: column;
@@ -297,8 +319,16 @@
  .music-bar{
    width: 400px;
  }
+ .musichov{
+  mix-blend-mode: screen;
+  transition: all 0.2s ease-in;
+ }
+ .musichov:hover{
+  box-shadow: 1px 1px 20px gray;
+  cursor: pointer;
+ }
 
-
+ /* <!-- ===========Bottom Right============= */
  .volume{
    display: flex;
    align-items: center;
@@ -306,14 +336,20 @@
  }
  .vol{
    width: 20px;
+   mix-blend-mode: screen;
+   transition: all 0.2s ease-in;
  }
 
  .black-spek{
    width: 45px;
  }
+ .vol:hover{
+  box-shadow: 1px 1px 10px gray;
+  cursor: pointer;
+ }
  
 
-
+/* *******************Green Notice*********** */
  .green-notice{
    display: flex;
    align-items: center;
@@ -329,4 +365,10 @@
  .green-notice h2{
    font-size: 15px;
    padding-right: 30px;
+ }
+
+
+ .play{
+  border-radius: 50%;
+  overflow: hidden;
  }
