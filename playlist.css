@@ -109,9 +109,9 @@
 }
 
 
-.right-part{
+/* .right-part{
     background-color: red;
-}
+} */
 
 .leftnav-Bottom>img{
     position: absolute;
@@ -558,10 +558,7 @@
 
 
 @media only screen and (max-width: 600px) and (min-width: 400px){
-  body{
-
-    background-color: red;
-  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
