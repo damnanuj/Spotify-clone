@@ -578,6 +578,13 @@
 .showCard>img {
   width: 115px;
 }
+.shows>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  /* justify-content: space-evenly; */
+}
 
 
 
