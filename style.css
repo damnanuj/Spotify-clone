@@ -415,9 +415,9 @@
       width: 100%;
     }
 
-    .likedcards{
-      width: 150px;
-    }
+    .likedcards {
+      width: 100%;
+  }
     .likedcards>h2{
       font-size: 12px;
     }
@@ -429,19 +429,32 @@
       display: flex;
       justify-content: space-between;
     }
+    .shows>div {
+      justify-content: space-between;
+  }
 
 
     .shows{
       padding: 0 30px;
     }
     .showCard {
-      padding: 10px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
+  .showCard>img {
+    width: 210px;
+    margin-bottom: 10px;
+}
   .showsCards {
+    justify-content: center;
     padding-right: 0;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     flex-wrap: wrap;
+  
 }
   .playControls{
     display: none;
@@ -524,7 +537,7 @@
 
 
 
-@media only screen and (min-width: 394px) and (max-width: 420px)  {
+@media only screen and (min-width: 394px) and (max-width: 420px){
    body{
     background-color: #000000;
    }
