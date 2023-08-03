@@ -399,7 +399,7 @@
 
  /* Media Queries */
  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 360px) {
    
   body{
     background-color: #000000;
@@ -537,7 +537,7 @@
 
 
 
-@media only screen and (min-width: 394px) and (max-width: 420px){
+@media only screen and (min-width: 361px) and (max-width: 460px){
    body{
     background-color: #000000;
    }
@@ -567,6 +567,9 @@
 .showsCards {
   padding-right: 0px;
   
+}
+.shows {
+  padding: 0px 30px;
 }
 
 .showCard {
