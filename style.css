@@ -598,6 +598,12 @@
   width: 25px;
  }
 
+ .wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
 
   /* Bottom */
   .home-container-media{
