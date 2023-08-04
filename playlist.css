@@ -550,6 +550,16 @@
     width: 100vw;
   }
 
+  .bottom {
+    padding: 12px 20px;
+    width: 100%;
+    height: 10vh;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
   
 
 }
